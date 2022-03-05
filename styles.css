@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-size: 4em;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+button:hover {
+    transform: scale(1.2);
+}
